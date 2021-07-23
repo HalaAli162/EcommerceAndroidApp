@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#2F4F4F"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_price"
+        android:text="Price"
+        android:textSize="18dp"
+        android:textColor="#2F4F4F"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_Disc"
+        android:text="Discription"
+        android:textSize="16dp"
+        android:textColor="#2F4F4F"></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AddC"
+        android:text="Add To Cart"
+        android:backgroundTint="#FFECB96F"
+        android:iconTint="#ECB96F"
+        ></Button>
+</LinearLayout>
